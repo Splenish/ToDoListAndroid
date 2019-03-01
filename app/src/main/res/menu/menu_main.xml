@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kb.lab5_2.ui.MainActivity">
+    <item
+        android:id="@+id/order_by_date"
+        android:orderInCategory="100"
+        android:title="Sort by date"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/order_by_added"
+        android:orderInCategory="100"
+        android:title="Sort by order added"
+        app:showAsAction="never" />
+</menu>
